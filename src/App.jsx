@@ -1,6 +1,6 @@
 import Header from "./componants/header";
 import Footer from "./componants/footer";
-import MainContainer from "./componants/maincontainer";
+import Carousel from "./componants/carousel";
 import './App.css';
 
 
@@ -9,7 +9,9 @@ function App(){
     
     <>
       <Header />
-      <MainContainer />
+
+      <Carousel />
+      
       <Footer />
     </>
    
