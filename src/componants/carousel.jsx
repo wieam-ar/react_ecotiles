@@ -2,6 +2,7 @@ import React from 'react'
 import pic from "../assets/Rectangle 164.jpg"
 import pic2 from "../assets/Rectangle 169.png"
 import pic3 from "../assets/Group 467.png"
+import pic4 from "../assets/Vector (4).png"
 
 const carousel = () => {
   return (
@@ -16,7 +17,18 @@ const carousel = () => {
              Que vous recherchiez une solution moderne,<br />
              classique ou audacieuse, nous sommes là pour vous accompagner dans la <br /> réalisation de vos projets.
             </p>
-        </div>
+            <div className="ved">
+                <img src={pic4} alt="playved" /><a href="">0:54 Visionner notre vidéo</a>
+            </div>
+            <div className="infos">
+                <h6>Adresse</h6>
+                <p>Chau. de Mons 803, 1070 Anderlecht</p>
+            </div>
+            <div className="info">
+                <h6>Téléphone</h6>
+                <p>02 251 59 78</p>
+            </div>
+          </div>
          
 
     </div>
