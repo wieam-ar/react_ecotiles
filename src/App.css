@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #ff9f9f;
+    padding:unset;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  header img {
+    height: 33px;
+    margin: 10px;
+  }
+  
+  /* Navigation */
+  #navlist {
+    list-style: none;
+    display: flex;
+   
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #navlist li {
+    position: relative;
+  }
+  
+  #navlist li a {
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+  }
+  
+  /* Animation using ::after (underline grow effect) */
+  #navlist li a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  #navlist li a:hover::after {
+    width: 100%;
+  }
+  
+  #navlist li a:hover {
+    color: white;
+  }
+.icon-group{
+    
+    margin-left: 10px
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    #navlist {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+      width: 100%;
+    }
+  
+    #navlist li a {
+      padding: 10px 0;
+    }
+  }
+  
