@@ -1,7 +1,7 @@
-/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     background-color: #f4f4f4;
   }
   
@@ -75,7 +75,37 @@ body {
     z-index: 1;
    
   }
-  
+  .up{
+    position: absolute;
+    top: 5px;
+  }
+  .center{
+    position: absolute;
+    top: 190px;
+    left: 93px;
+    right: 30px;
+    bottom: 0;
+  }
+  .groud h2{
+    position: absolute;
+    top: 370px;
+    left: 93px;
+    right: 30px;
+    bottom: 0;
+    font-weight: 400;
+    line-height: 100%;
+    font-size: 30px;
+  }
+  .groud p{
+    position: absolute;
+    top: 440px;
+    left: 93px;
+    right: 30px;
+    bottom: 0;
+    font-weight: 400;
+    line-height: 100%;
+    font-size: 13px;
+  }
   .groud::before {
     content: '';
     position: absolute;
