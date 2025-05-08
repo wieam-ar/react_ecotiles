@@ -1,22 +1,19 @@
-import Header from "./componants/header";
-import Footer from "./componants/footer";
-import Carousel from "./componants/carousel";
-import './App.css';
-import Rooms from "./componants/rooms";
+import React from 'react'
+import Nav from './componants/navigation'
 
-
-function App(){
-  return(
-    
+const App = () => {
+  return (
     <>
-      <Header />
+     <Nav/>
+     <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
 
-      <Carousel />
-      <Rooms />
-      <Footer />
+
+
+
     </>
-   
-
-  );
+  )
 }
-export default App ;
+
+export default App
